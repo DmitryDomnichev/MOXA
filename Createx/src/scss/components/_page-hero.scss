@@ -1,0 +1,42 @@
+.page-hero {
+  padding-top: 153px;
+  padding-bottom: 179px;
+  background-repeat: no-repeat;
+  background-color: var(--athens-color);
+
+
+  &__breadcrumbs {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin: 0 0 24px;
+    max-width: 600px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--ebony-color);
+  }
+
+  &__description {
+    margin: 0;
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--storm-color);
+
+  }
+
+  &--services {
+    background-image: url('../../img/services-page-bg.png');
+    background-position: right -8px top;
+  }
+
+  &--services-inner {
+    background-image: url('../../img/services-page-bg.png');
+    background-position: right -8px top;
+  }
+}

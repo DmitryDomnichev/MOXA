@@ -1,0 +1,21 @@
+.header {
+  padding: 24px 0 21px ;
+  margin-right: 21px;
+
+
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &--main {
+    background-color: var(--light-color);
+  }
+
+  &__nav {
+    margin-left: -150px;
+  }
+}
+
